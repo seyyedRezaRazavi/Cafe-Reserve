@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Yekan';
+    src: url('../yekan/Yekan.eot');
+    src: url('../yekan/Yekan.eot?#iefix') format('FontName-opentype'),
+url('../yekan/Yekan.woff') format('woff'),
+url('../yekan/Yekan.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: 'Yekan';
+    direction: rtl;
+    text-align: right;
+}
+
+.card-title{
+    float: right;
+}
+
+.ml-auto, .mx-auto{
+    margin-left: unset !important;
+ margin-right: auto !important;
+}
+
+.profile-user-img{
+    width: 200px !important;
+}
+
+.card-header>.card-tools{
+    float: left;
+}
+
+.input-group>.input-group-append>.btn, .input-group>.input-group-append>.input-group-text, .input-group>.input-group-prepend:first-child>.btn:not(:first-child), .input-group>.input-group-prepend:first-child>.input-group-text:not(:first-child), .input-group>.input-group-prepend:not(:first-child)>.btn, .input-group>.input-group-prepend:not(:first-child)>.input-group-text{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+}
+
+.input-group>.input-group-append:last-child>.btn:not(:last-child):not(.dropdown-toggle), .input-group>.input-group-append:last-child>.input-group-text:not(:last-child), .input-group>.input-group-append:not(:last-child)>.btn, .input-group>.input-group-append:not(:last-child)>.input-group-text, .input-group>.input-group-prepend>.btn, .input-group>.input-group-prepend>.input-group-text {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
